@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.model{
+    margin-top: 30px;
+    height: 20px;
+    width: 300px;
+}
+.textComment{
+    height: 100px;
+    width: 300px;
+}
+
+.commentId{
+    margin-top: 10px;
+}

@@ -35,7 +35,7 @@ console.log(localStorage.length);
                 }
                 else{
                     const idNum = idNumber();// вытягивает все елементы из bd.js (типо старые отзывы)
-                    localStorage.setItem(idNum+1,[model.value +'//\\@3'+ textComment.value +'//\\@3'+ 'yuo'])
+                    localStorage.setItem(idNum+1,[model.value +'//\\@3'+ textComment.value +'//\\@3'+ 'yuo'])// //\\@3 это разделитель на будущее
 
 
 

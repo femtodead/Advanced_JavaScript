@@ -30,13 +30,13 @@ let initialData = [
     },
     ],
 },
-];
+];// здесь храним уже оставленные комментарии
 
 function recordLs(initialData) {
     
     initialData.forEach(element => {
         element.reviews.forEach(elem => {
-            localStorage.setItem(elem.id,[element.product +'//\\@3'+ elem.text]);
+            localStorage.setItem(elem.id,[element.product +'//\\@3'+ elem.text]);// //\\@3 это разделитель на будущее
         });
     });
 }
